@@ -1,0 +1,98 @@
+[
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":1.0,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.97,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.95,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   }
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.9,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.8,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.7,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.6,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.5,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   }
+]

@@ -1,0 +1,38 @@
+[
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"fbank",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"logfbank",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   }
+]

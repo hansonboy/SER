@@ -1,0 +1,11 @@
+[
+  {
+    "root_dir": "../audio_data_raw/",
+    "binsize": 256,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128,
+    "strides":16
+  }
+]

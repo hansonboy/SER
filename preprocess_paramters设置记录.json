@@ -1,0 +1,180 @@
+[
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+    {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.6,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.7,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+   {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.8,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.9,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.6,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.7,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+    {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.8,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.9,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  }
+]
+============
+[
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.1,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+    {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.2,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.3,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+   {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 256,
+    "overlapFac": 0.4,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+    {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.1,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+    {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.2,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+  {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.3,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  },
+   {
+    "root_dir": "/Users/jw/Desktop/audio_data",
+    "binsize": 512,
+    "overlapFac": 0.4,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128
+  }
+]
+//====为了验证什么样的重叠率数据更加有效
+[
+  {
+    "root_dir": "../audio_data_raw/",
+    "binsize": 512,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128,
+    "strides":32
+  },
+  {
+    "root_dir": "../audio_data_raw/",
+    "binsize": 512,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128,
+    "strides":64
+  },
+  {
+    "root_dir": "../audio_data_raw/",
+    "binsize": 512,
+    "overlapFac": 0.5,
+    "alpha": 1,
+    "split_png_width": 128,
+    "split_png_height": 128,
+    "strides":128
+  }
+]
+

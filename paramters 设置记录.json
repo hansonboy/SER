@@ -1,0 +1,1018 @@
+// 0.6的 train
+[
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 25,
+        "BATCHES_IN_EPOCH" : 39,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/CASIA"
+    },
+        {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 25,
+        "BATCHES_IN_EPOCH" : 39,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 25,
+        "BATCHES_IN_EPOCH" : 39,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/SAVEE"
+    }
+]
+=========================================================================================================================================
+// 0.8 train
+[
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "BATCHES_IN_EPOCH" : 13,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 100,
+        "NUMBER_OF_EXPERIMENTS" : 10,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/CASIA"
+    },
+        {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 25,
+        "BATCHES_IN_EPOCH" : 39,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 25,
+        "BATCHES_IN_EPOCH" : 39,
+        "TEST_SIZE" : 326,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/SAVEE"
+    }
+]
+目的是：为了证明是不是数据库的样本不足导致识别效果不好
+=========================================================================================================================================
+[
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/CASIA"
+    },
+  {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+  {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 1,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/SAVEE"
+    }
+]
+目的是：为了找到最好的数据库
+结果分析是：Emo 数据库的效果是最好的,
+======================================================================================================================================================
+[
+    {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.6/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.7/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.8/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.9/split_png_data/Emo"
+    },
+      {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 256,
+        "IMAGES_HEIGHT" : 256,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_512_0.5/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 256,
+        "IMAGES_HEIGHT" : 256,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_512_0.6/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 256,
+        "IMAGES_HEIGHT" : 256,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 256,
+        "IMAGES_HEIGHT" : 256,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_512_0.8/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 256,
+        "IMAGES_HEIGHT" : 256,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_512_0.9/split_png_data/Emo"
+    }
+]
+
+目的是： 为了窗口大小 哪个 是最方便的
+1484131952_256_0.5 较高
+1484133184_512_0.5 较高
+
+[
+         {
+        "NUMBER_OF_FEATURES" : 256,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+   {
+        "NUMBER_OF_FEATURES" : 512,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+     {
+        "NUMBER_OF_FEATURES" : 1024,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 1,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    }
+]
+
+//
+目的：证明语谱图如何切分更加有效
+[
+ {
+        "NUMBER_OF_FEATURES" : 512,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data_raw/1488980913_512_0.5_32/split_png_data/Emo"
+    },
+  {
+        "NUMBER_OF_FEATURES" : 512,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data_raw/1488980921_512_0.5_64/split_png_data/Emo"
+    },
+  {
+        "NUMBER_OF_FEATURES" : 512,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 15,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "DATA_TYPES": "spectrum",
+        "split_png_dir":"../audio_data_raw/1488980929_512_0.5_128/split_png_data/Emo"
+    }
+]
+//以下的是为了验证两层RNN是否能够运行
+[
+   {
+      "n_layers":2,
+      "n_steps": 128,
+      "n_input": 128,
+      "n_units": 128,
+      "n_classes": 7,
+      "n_epochs": 15,
+      "batch_size": 100,
+      "learning_rate": 0.0003,
+      "display_step": 20,
+      "split_png_data": "../audio_data/1488984508_512_0.5_32/split_png_data/Emo",
+      "cell_type":"LSTM"
+    }
+]
+
+// 以下实验设置是为了说明 mfcc 多少位的时候是有效的
+[
+   {
+     "DATA_TYPES":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 16,
+      "IMAGES_HEIGHT" : 16,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   },
+  {
+      "DATA_TYPES":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 32,
+      "IMAGES_HEIGHT" : 32,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   },
+  {
+      "DATA_TYPES":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   },
+  {
+      "DATA_TYPES":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 128,
+      "IMAGES_HEIGHT" : 128,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   }
+]
+//以下实验是为了说明 mfcc 系列特征到底哪个是最有效的。
+[
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"mfcc",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"fbank",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+     "mfcc_type":"logfbank",
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+   }
+]
+
+//以下是为了说明预加重系数多少较好
+[
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":1.0,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+  {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.97,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.95,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   }
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.9,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.8,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.7,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.6,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "preemph":0.5,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../audio_data/wave_data/Emo"
+   }
+]
+//以下是为了说明窗口大小和帧移多少是合适的
+[
+   {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.01,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+   {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.015,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+   {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.02,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+ {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.025,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+   {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.03,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   },
+   {
+     "DATA_TYPES":"mfcc",
+      "winlen":0.035,
+      "winstep":0.01,
+      "NUMBER_OF_FEATURES" : 128,
+      "BATCH_SIZE" : 100,
+      "NUMBER_OF_EPOCHS" : 5,
+      "NUMBER_OF_EXPERIMENTS" : 5,
+      "IMAGES_WIDTH" : 64,
+      "IMAGES_HEIGHT" : 64,
+      "EMOTION_CLASS" : 7,
+      "split_png_dir":"../wave_data/Emo"
+   }
+]
+//测试 rnn/rnn_svm/CNN_RNN_SVM/CNN
+[
+   {
+      "spectrum_width":64,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 15,
+      "rnn_out_size": 128,
+      "split_png_data": "../audio_data/1488984508_512_0.5_32/split_png_data/Emo"
+    }
+]
+
+//测试语谱图语谱图生成效果
+[
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488560628_256_0.1/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561011_256_0.2/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561071_256_0.3/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561139_256_0.4/split_png_data/Emo"
+    },
+
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484131952_256_0.5/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484132035_256_0.6/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484132143_256_0.7/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484132285_256_0.8/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484132509_256_0.9/split_png_data/Emo"
+    },
+
+   {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561215_512_0.1/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561257_512_0.2/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561302_512_0.3/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1488561351_512_0.4/split_png_data/Emo"
+    },
+
+
+
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133184_512_0.5/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133243_512_0.6/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133315_512_0.7/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133406_512_0.8/split_png_data/Emo"
+    },
+  {
+        "DATA_TYPES":"spectrum",
+        "NUMBER_OF_FEATURES" : 128,
+        "BATCH_SIZE" : 100,
+        "NUMBER_OF_EPOCHS" : 5,
+        "NUMBER_OF_EXPERIMENTS" : 5,
+        "IMAGES_WIDTH" : 128,
+        "IMAGES_HEIGHT" : 128,
+        "EMOTION_CLASS" : 7,
+        "split_png_dir":"../audio_data/1484133553_512_0.9/split_png_data/Emo"
+    }
+]
+
+// 使用 cnn 网络来测试 spectrum_strides
+
+[
+   {
+      "spectrum_width":128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 50,
+      "rnn_out_size": 128,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width":128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 50,
+      "rnn_out_size": 128,
+      "split_png_data": "../audio_data_raw/1489424611_256_0.5_32/split_png_data/Emo"
+    },
+      {
+      "spectrum_width":128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 50,
+      "rnn_out_size": 128,
+      "split_png_data": "../audio_data_raw/1489424620_256_0.5_64/split_png_data/Emo"
+    },
+      {
+      "spectrum_width":128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 50,
+      "rnn_out_size": 128,
+      "split_png_data": "../audio_data_raw/1489424628_256_0.5_128/split_png_data/Emo"
+    }
+]
+//测试 rnn的内部节点大小多少合适
+
+[
+   {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 1,
+      "rnn_out_size": 128,
+      "rnn_layers":2,
+      "split_png_data":"../audio_data/1489424475_256_0.5_16/split_png_data/Emo"
+    },
+      {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 1,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data":"../audio_data/1489424475_256_0.5_16/split_png_data/Emo"
+    },
+           {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 1,
+      "rnn_out_size": 512,
+      "rnn_layers":2,
+      "split_png_data":"../audio_data/1489424475_256_0.5_16/split_png_data/Emo"
+    }
+           {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 1,
+      "rnn_out_size": 1024,
+      "rnn_layers":2,
+      "split_png_data":"../audio_data/1489424475_256_0.5_16/split_png_data/Emo"
+    }
+
+]
+// 测试 cnn+rnn
+[
+   {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 50,
+      "rnn_out_size": 128,
+      "rnn_layers":2,
+      "split_png_data":"../audio_data/1489424475_256_0.5_16/split_png_data/Emo"
+    }
+]
+
+
+//测试 cnn+rnn times_step
+[
+    {
+      "spectrum_width": 1,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+     {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+     {
+      "spectrum_width": 64,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+     {
+      "spectrum_width": 32,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 16,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 8,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 4,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 2,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 120,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    }
+]
+
+// 测试 cnn+rnn/cnn/rnn 在不同数据库下的泛化能力
+[
+   {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 6,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "audio_data_raw/1489677753_256_0.5_16/split_png_data/CASIA"
+    },
+   {
+      "spectrum_width": 128,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "audio_data_raw/1489677753_256_0.5_16/split_png_data/SAVEE"
+    }
+]
+

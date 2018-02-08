@@ -1,0 +1,32 @@
+[
+   {
+      "spectrum_width": 1,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489424599_256_0.5_16/split_png_data/Emo"
+    },
+   {
+      "spectrum_width": 1,
+      "spectrum_hight": 128,
+      "num_classes": 6,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489677753_256_0.5_16/split_png_data/CASIA"
+    },
+   {
+      "spectrum_width": 1,
+      "spectrum_hight": 128,
+      "num_classes": 7,
+      "batch_size": 32,
+      "num_epochs": 100,
+      "rnn_out_size": 256,
+      "rnn_layers":2,
+      "split_png_data": "../audio_data_raw/1489677753_256_0.5_16/split_png_data/SAVEE"
+    }
+]
